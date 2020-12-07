@@ -161,3 +161,31 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.footer{
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+}
+.footer__left-block{
+    display: flex;
+}
+.footer__column-underline{
+    height: 1px;
+    width: 60px;
+    margin: 17px 0 30px;
+    background-color: #d0aa8c;
+}
+.footer__menu{
+    padding: 0px;
+}
+.left-block{
+    margin-right: 75px;
+}
+.footer__menu-li{
+    margin-bottom: 13px;
+    list-style-type: none; 
+}
+.footer__right-block{
+    padding-left: 65px;
+    border-left: 1px black solid;
+}
